@@ -5,33 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afb66aaa-c9b1-4ed2-b173-66a6b98710b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/entity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/enums/UserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/general/BaseAdditionalFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/general/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/general/BaseEntityModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/general/BaseEntityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/mapper/CommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2/src/main/java/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homework2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/CommentControllerContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/ProductControllerContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/UserControllerContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/impl/CommentControllerContractImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/impl/ProductControllerContractImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/impl/UserControllerContractImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/comment/CommentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/comment/CommentDeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/comment/CommentSaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/product/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/product/ProductSaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/product/ProductUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/user/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/user/UserDeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/user/UserSaveRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/user/UserUpdateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/UserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/enums/UserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/general/BaseAdditionalFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/BaseAdditionalFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/general/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/general/BaseEntityModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/BaseEntityModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/general/BaseEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/BaseEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/mapper/CommentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/mapper/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +58,24 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/homework2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2Q0q1KUqixDvZl3ixLdjysCdK1c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -84,10 +108,21 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "spring.configuration.checksum": "8c8f9d53ac412d501287d46702fa9d34",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller.contract.impl" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Homework2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="homework2" />
@@ -108,6 +143,8 @@
       <workItem from="1684500633688" duration="256000" />
       <workItem from="1684500895273" duration="632000" />
       <workItem from="1684501532256" duration="6211000" />
+      <workItem from="1684511693037" duration="306000" />
+      <workItem from="1684512004408" duration="7821000" />
     </task>
     <servers />
   </component>
