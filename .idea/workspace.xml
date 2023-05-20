@@ -5,49 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afb66aaa-c9b1-4ed2-b173-66a6b98710b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/CommentControllerContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/ProductControllerContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/UserControllerContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/impl/CommentControllerContractImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/impl/ProductControllerContractImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/impl/UserControllerContractImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/comment/CommentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/comment/CommentDeleteRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/comment/CommentSaveRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/product/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/product/ProductSaveRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/product/ProductUpdateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/user/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/user/UserDeleteRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/user/UserSaveRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/dto/user/UserUpdateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/BaseErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/CustomizedResponseEntityExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/GenericErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/ItemNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/RestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/service/UserEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7e59020-dcae-4c37-8608-325861a56e7e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f7e59020-dcae-4c37-8608-325861a56e7e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f7e59020-dcae-4c37-8608-325861a56e7e/storage_v2/_src_/database/akbank-hw2.HNSMGQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f7e59020-dcae-4c37-8608-325861a56e7e/storage_v2/_src_/database/akbank-hw2.HNSMGQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/entity/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enums/UserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/enums/UserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/general/BaseAdditionalFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/BaseAdditionalFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/general/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/general/BaseEntityModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/BaseEntityModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/general/BaseEntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/general/BaseEntityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/mapper/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/mapper/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/repository/CommentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/CommentControllerContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/CommentControllerContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/ProductControllerContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/ProductControllerContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/UserControllerContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/UserControllerContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/impl/CommentControllerContractImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/impl/CommentControllerContractImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/impl/ProductControllerContractImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/impl/ProductControllerContractImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/impl/UserControllerContractImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/controller/contract/impl/UserControllerContractImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/service/CommentEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/homework2/service/ProductEntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/homework2/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/contract/CommentControllerContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/contract/CommentControllerContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/contract/ProductControllerContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/contract/ProductControllerContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/contract/UserControllerContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/contract/UserControllerContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/contract/impl/CommentControllerContractImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/contract/impl/CommentControllerContractImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/contract/impl/ProductControllerContractImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/contract/impl/ProductControllerContractImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/contract/impl/UserControllerContractImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/homework2/controller/contract/impl/UserControllerContractImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/homework2/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/repository/CommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/homework2/repository/CommentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/homework2/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/homework2/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/example/homework2/mapper/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/example/homework2/mapper/UserMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +57,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Record" />
       </list>
     </option>
   </component>
@@ -144,7 +143,7 @@
       <workItem from="1684500895273" duration="632000" />
       <workItem from="1684501532256" duration="6211000" />
       <workItem from="1684511693037" duration="306000" />
-      <workItem from="1684512004408" duration="7821000" />
+      <workItem from="1684512004408" duration="23567000" />
     </task>
     <servers />
   </component>
