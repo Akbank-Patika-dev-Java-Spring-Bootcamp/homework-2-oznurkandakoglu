@@ -15,20 +15,19 @@ import java.util.List;
 public class CommentEntityService extends BaseEntityService<Comment, CommentRepository> {
 
     private final CommentRepository commentRepository;
-    private final CommentMapper commentMapper = CommentMapper.INSTANCE;
+
     public CommentEntityService(CommentRepository repository, CommentRepository commentRepository) {
         super(repository);
         this.commentRepository = commentRepository;
     }
 
-    public List<CommentDTO> findAllByProductId(Long id){
-        List<Comment> commentList = commentRepository.findAllByProductId(id);
-        return commentMapper.converToCommentDTOList(commentList);
+    public List<Comment> findAllByProductId(Long id){
+
+        return commentRepository.findAllByProductId(id);
     }
 
-    public List<CommentDTO> findAllByUserId(Long id){
-        List<Comment> commentList = commentRepository.findAllByUserId(id);
-        return commentMapper.converToCommentDTOList(commentList);
+    public List<Comment> findAllByUserId(Long id){
+        return commentRepository.findAllByUserId(id);
     }
 
 }

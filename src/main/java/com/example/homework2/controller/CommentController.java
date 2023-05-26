@@ -37,6 +37,7 @@ public class CommentController {
     @GetMapping("/users/{id}")
     public ResponseEntity<RestResponse<List<CommentDTO>>> findAll(@PathVariable Long id){
         List<CommentDTO> commentDTOList = commentControllerContract.findAllByUserId(id);
+
         return ResponseEntity.ok(RestResponse.of(commentDTOList));
     }
 

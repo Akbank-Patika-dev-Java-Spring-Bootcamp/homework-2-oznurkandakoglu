@@ -16,29 +16,23 @@ import java.util.Objects;
 public class UserEntityService extends BaseEntityService<User, UserRepository> {
 
     private final UserRepository userRepository;
-    private final UserMapper userMapper = UserMapper.INSTANCE;
 
     public UserEntityService(UserRepository repository, UserRepository userRepository) {
         super(repository);
         this.userRepository = userRepository;
     }
 
-    public UserDTO findByUsername(String username){
-        User user = userRepository.findByUsername(username);
-        return UserMapper.INSTANCE.convertToUserDTO(user);
+    public User findByUsername(String username){
+        return userRepository.findByUsername(username);
     }
 
-    public UserDTO findByUsernameAndPhoneNumber(String username, String phoneNumber){
-        User user = userRepository.findByUsernameAndPhoneNumber(username,phoneNumber);
-        return UserMapper.INSTANCE.convertToUserDTO(user);
+    public User findByUsernameAndPhoneNumber(String username, String phoneNumber){
+        return userRepository.findByUsernameAndPhoneNumber(username,phoneNumber);
 
     }
 
     public void delete(UserDeleteRequest userDeleteRequest){
-        User user = userRepository.findByUsername(userDeleteRequest.username());
-        if(user.getPhoneNumber().equals(userDeleteRequest.phoneNumber())){
-            userRepository.deleteById(user.getId());
-        }
+        userRepository.delete(userRepository.findByUsernameAndPhoneNumber(userDeleteRequest.username(), userDeleteRequest.phoneNumber()));
     }
 
     public UserDTO update(Long id,UserUpdateRequest userUpdateRequest){
@@ -48,6 +42,6 @@ public class UserEntityService extends BaseEntityService<User, UserRepository> {
         user.setEmail(userUpdateRequest.email());
         user.setPhoneNumber(userUpdateRequest.phoneNumber());
         userRepository.save(user);
-        return userMapper.convertToUserDTO(user);
+        return UserMapper.INSTANCE.convertToUserDTO(user);
     }
 }

@@ -22,6 +22,6 @@ public class ProductEntityService extends BaseEntityService<Product, ProductRepo
         Product product = productRepository.findById(id).orElseThrow();
         product.setPrice(productUpdateRequest.price());
         productRepository.save(product);
-        return productMapper.convertToProductDto(product);
+        return ProductMapper.INSTANCE.convertToProductDto(product);
     }
 }

@@ -13,9 +13,8 @@ import java.util.List;
 @Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface UserMapper {
     UserMapper INSTANCE = Mappers.getMapper(UserMapper.class);
-
     User convertToUser(UserSaveRequest request);
-    User convertToUser(UserUpdateRequest request);
     UserDTO convertToUserDTO(User user);
     List<UserDTO> convertToUserDTOList(List<User> userList);
+
 }

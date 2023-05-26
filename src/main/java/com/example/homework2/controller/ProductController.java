@@ -29,8 +29,8 @@ public class ProductController {
         return ResponseEntity.ok(RestResponse.of(productDTOList));
     }
 
-    @DeleteMapping
-    public ResponseEntity<RestResponse<String>> delete(@RequestBody Long id){
+    @DeleteMapping("/{id}")
+    public ResponseEntity<RestResponse<String>> delete(@PathVariable Long id){
         productControllerContract.delete(id);
         return ResponseEntity.ok(RestResponse.of("Deleted!"));
     }
