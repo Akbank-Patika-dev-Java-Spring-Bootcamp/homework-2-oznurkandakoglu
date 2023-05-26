@@ -1,4 +1,19 @@
-# Homework 2
+# Akbank & Patika.dev Java Spring Bootcamp Homework 2
+
+### About Project
+
+For an online shopping website's backend service:
+  - It is a service that manages Users, Products, and Comments.
+  - An email and a phone number can only belong to one User.
+  - Registration cannot be done with the same username, phone number, or email.
+  - User type can be individual or company.
+
+
+### Technologies
+
+- Maven
+- Spring Boot
+- Java
 
 ### Swagger Screenshots
 
